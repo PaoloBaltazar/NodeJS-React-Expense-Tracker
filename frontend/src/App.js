@@ -1,10 +1,18 @@
 
-function App() {
-  return (
-    <div className="App">
+import styled from "styled-components";
 
-    </div>
+function App() {
+
+  const AppStyled = styled.div`
+  height: 100vh;
+  `;
+
+  return (
+    <AppStyled className="App">
+
+    </AppStyled>
   );
 }
+
 
 export default App;
