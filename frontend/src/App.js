@@ -1,15 +1,14 @@
 
 import styled from "styled-components";
 import { MainLayout } from "./styles/Layouts";
+import Orb from "./Components/Orb/Orb"
 
 
 function App() {
   return (
     <AppStyled className="App">
+      <Orb />
       <MainLayout>
-        <h1>
-          Hello
-        </h1>
       </MainLayout>
     </AppStyled>
   );
@@ -18,7 +17,7 @@ function App() {
 const AppStyled = styled.div`
   height: 100vh;
   background-color: #8BC6EC;
-  background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
 
 `;
 
